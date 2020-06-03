@@ -1,0 +1,94 @@
+{% extends 'info/base.html' %}
+
+{% load staticfiles %}
+<head>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'css/formulaireEsig.css' %}">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+        //en attendant de chargement de la page
+        $(document).ready(
+            function () {
+                $('#cherche').keyup
+                (
+                    function () {
+                        //envoyer un formulaire
+                        $.post(
+                            {
+                                url:'cherche',
+                                data:
+                                    {
+                                        //définition de variable et passer par post
+                                        'mot' : $('#cherche').val(),
+                                        //pour la sécurité du formulaire
+                                        'csrfmiddlewaretoken' : $('input[name = csrfmiddlewaretoken]').val()
+                                    },
+                                success : function(data)
+                                {
+                                    //remplir les donneés en parmatère
+                                    $('#resultat-chercher').html(data);
+                                }
+
+                            }
+                        )
+                    }
+                );
+            }
+        );
+    </script>
+
+<!--Utilisation d'ajax-->
+
+
+</head>
+
+{% block title %}
+<title>symtom form | Covid19</title>
+{% endblock title %}
+
+
+{% block content %}
+<body >
+<div class="container-fluid">
+  <div class="col-lg-12 col-md-6 col-sm-12 col-xs-12">
+      <div class=" panel panel-default card-view">
+          <div class="panel-heading text-center">
+              <div class="pull-left">
+                  <h6 class="panel-title txt-dark">Symptom Map</h6>
+              </div>
+
+
+
+              <span id="typed" style="font-weight: 500;font-size:17px;display: inline;"></span>
+
+              <div class=" pull-right">
+
+                  <a href="#" class="pull-left inline-block full-screen">
+                      <i class="zmdi zmdi-fullscreen"></i>
+                  </a>
+              </div>
+              <div class="clearfix"></div>
+          </div>
+          <div class="panel-wrapper collapse in">
+              <div class="panel-body">
+                  <div width="1000" height="200">{{ iframe|safe }}</div>
+              </div>
+          </div>
+      </div>
+      <h1>Liste des utilisateurs</h1>
+      <div>
+          <a href="{% url 'uti_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span>  Add Cases To Map </a>
+      </div>
+
+      <hr >
+
+      <div id="resultat-chercher" >
+          {% include "info/liste.html" %}
+      </div>
+  </div>
+
+
+</div>
+</body>
+{% endblock %}

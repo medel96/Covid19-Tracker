@@ -1,0 +1,47 @@
+{% extends 'info/base.html' %}
+
+{% load static %}
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'css/formulaireEsig.css' %}">
+
+{% block title %}
+<title>symtom form | Covid19</title>
+{% endblock title %}
+
+{% block content %}
+
+<div class="container-fluid">
+  <h1>Ajouter un utilisateur</h1>
+  <div id="form">
+      <form method="POST" class="post-form">{% csrf_token %}
+
+
+          <p>
+              <label for="id_nom">Last Name</label> : <input id="id_nom" type="text" name="UTI_NOM" style="margin-left: 88px"/>
+          </p>
+          <p>
+              <label for="id_prenom">First Name</label> : <input id="id_prenom" type="text" name="UTI_PRENOM" style="margin-left: 67px"/>
+          </p>
+          <p>
+              <label for="id_civ">Civilité</label> :  <select id="id_civ"name="UTI_CIVILITE" style="margin-left: 74px">
+              <option value="F">F</option>
+              <option value="H">H</option>
+
+          </select>
+          </p>
+          <p>
+              <label for="id_email">Email</label> : <input id="id_email" type="text" name="UTI_EMAIL" style="margin-left: 82px"/>
+          </p>
+          <p>
+              <label for="id_adresse">Adresse</label> : <input id="id_adresse" required size="100" placeholder="Format (quartier, ville, pays)" type="text" name="UTI_ADRESSE" style="margin-left: 82px"/>
+          </p>
+          <p>
+              <label for="id_email">Number of Cases</label> : <input id="id_email" type="text" name="UTI_NUMBER" style="margin-left: 82px"/>
+          </p>
+  <br/> <br/>
+          <button type="submit" class="save btn btn-default" style="margin-left:230px " >Enregistrer</button>
+      </form>
+  </div>
+</div>
+{% endblock %}

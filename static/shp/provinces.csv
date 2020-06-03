@@ -1,0 +1,76 @@
+FID_1;Provinces;Region;cumule;Date
+0;Tanger_Asilah;Tanger_Tetouan_Al Hoceima;191;18/04/2020
+1;Fahs_Anjra;Tanger_Tetouan_Al Hoceima;0;18/04/2020
+2;Tetouan;Tanger_Tetouan_Al Hoceima;54;18/04/2020
+3;Chefchaouen;Tanger_Tetouan_Al Hoceima;0;18/04/2020
+4;Ouazzane;Tanger_Tetouan_Al Hoceima;1;18/04/2020
+5;Driouch;l'Oriental;7;18/04/2020
+6;Oujda;l'Oriental;47;18/04/2020
+7;Taourirt;l'Oriental;9;18/04/2020
+8;Guercif;l'Oriental;8;18/04/2020
+9;Settat;Casablanca_Settat;47;19/04/2020
+10;Youssoufia;Marrakech_Safi;0;22/04/2020
+11;Ouarzazate;Draa_Tafilalet;28;18/04/2020
+12;Zagora;Draa_Tafilalet;4;18/04/2020
+13;Tinghir;Draa_Tafilalet;1;18/04/2020
+14;Jerada;l'Oriental;0;18/04/2020
+15;Assa_Zag;Guelmim_Oued Noun;0;17/04/2020
+16;Laayoune;Laayoune_Sakia El Hamra;0;17/04/2020
+17;Es_Semara;Laayoune_Sakia El Hamra;0;17/04/2020
+18;Boujdour;Laayoune_Sakia El Hamra;4;17/04/2020
+19;Tan_Tan;Guelmim_Oued Noun;0;17/04/2020
+20;Tarfaya;Laayoune_Sakia El Hamra;0;17/04/2020
+21;Guelmim;Guelmim_Oued Noun;1;17/04/2020
+22;Tiznit;Souss_Massa;0;18/04/2020
+23;Oued_Eddahab;Dakhla_Oued Ed Dahab;2;17/04/2020
+24;Chtouka Ait Baha;Souss_Massa;2;18/04/2020
+25;Azilal;Beni Mellal_Khenifra;20;17/04/2020
+26;Beni Mellal;Beni Mellal_Khenifra;3;17/04/2020
+27;Fquih Ben Saleh;Beni Mellal_Khenifra;9;17/04/2020
+28;Essaouira;Marrakech_Safi;2;22/04/2020
+29;Chichaoua;Marrakech_Safi;23;22/04/2020
+30;Khouribga;Beni Mellal_Khenifra;25;17/04/2020
+31;Benslimane;Casablanca_Settat;0;19/04/2020
+32;Sekhirat_Temara;Rabat_Sale_Kenitra;74;17/04/2020
+33;Berrechid;Casablanca_Settat;13;19/04/2020
+34;Nouaceur;Casablanca_Settat;46;19/04/2020
+35;Mohammedia;Casablanca_Settat;30;19/04/2020
+36;Inzegan Ait melloul;Souss_Massa;10;18/04/2020
+37;Taroudant;Souss_Massa;1;18/04/2020
+38;Agadir;Souss_Massa;18;18/04/2020
+39;Sidi Kacem;Rabat_Sale_Kenitra;0;17/04/2020
+40;Midelt;Draa_Tafilalet;44;18/04/2020
+41;Errachidia ;Draa_Tafilalet;5;18/04/2020
+42;Khenifra;Beni Mellal_Khenifra;1;17/04/2020
+43;Sidi Slimane;Rabat_Sale_Kenitra;1;17/04/2020
+44;Figuig;l'Oriental;1;18/04/2020
+45;Tata;Souss_Massa;4;18/04/2020
+46;Larache;Tanger_Tetouan_Al Hoceima;21;18/04/2020
+47;Rehamna;Marrakech_Safi;217;22/04/2020
+48;Al Haouz;Marrakech_Safi;26;22/04/2020
+49;El Kalaa Sraghna;Marrakech_Safi;3;22/04/2020
+50;Safi ;Marrakech_Safi;0;22/04/2020
+51;Sale;Rabat_Sale_Kenitra;45;17/04/2020
+52;Awsard;Dakhla_Oued Ed Dahab;0;17/04/2020
+53;Sidi Ifni;Guelmim_Oued Noun;0;17/04/2020
+54;Berkane;l'Oriental;37;18/04/2020
+55;Sidi Bennour;Casablanca_Settat;0;19/04/2020
+56;El Jadida;Casablanca_Settat;10;19/04/2020
+57;Casablanca;Casablanca_Settat;620;19/04/2020
+58;Nador;l'Oriental;39;18/04/2020
+59;M'diq_Fnidq;Tanger_Tetouan_Al Hoceima;0;18/04/2020
+60;Al Hoceima;Tanger_Tetouan_Al Hoceima;13;18/04/2020
+62;Merrakech;Marrakech_Safi;471;22/04/2020
+63;Kenitra;Rabat_Sale_Kenitra;22;17/04/2020
+64;Taounat;Fes_Meknes;6;17/04/2020
+65;Taza;Fes_Meknes;37;17/04/2020
+66;Boulemane;Fes_Meknes;0;17/04/2020
+67;Sefrou;Fes_Meknes;9;17/04/2020
+68;My Yaaqoub;Fes_Meknes;1;17/04/2020
+69;Ifrane;Fes_Meknes;16;17/04/2020
+70;El Hajeb;Fes_Meknes;1;17/04/2020
+71;Meknes;Fes_Meknes;93;17/04/2020
+72;Fes;Fes_Meknes;205;17/04/2020
+73;Mediouna;Casablanca_Settat;16;19/04/2020
+74;khemisset;Rabat_Sale_Kenitra;7;17/04/2020
+75;Rabat;Rabat_Sale_Kenitra;110;17/04/2020
