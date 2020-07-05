@@ -15,13 +15,13 @@
     {% endblock title %}
 
     <!-- Favicon -->
-    <link rel="icon" href="{%static 'dist/img/favicon.ico' %}">
+    <link rel="icon" href="dist/img/favicon.ico">
 
-    <link href="{% static 'vendors/bower_components/datatables/media/css/jquery.dataTables.min.css' %}" rel="stylesheet"
+    <link href="static/vendors/bower_components/datatables/media/css/jquery.dataTables.min.css" rel="stylesheet"
         type="text/css" />
 
     <!-- toast -->
-    <link href="{% static 'vendors/bower_components/jquery-toast-plugin/dist/jquery.toast.min.css' %}" rel="stylesheet"
+    <link href="static/vendors/bower_components/jquery-toast-plugin/dist/jquery.toast.min.css" rel="stylesheet"
         type="text/css">
 
         <!-- bootstrap select -->
@@ -29,7 +29,7 @@
 
 
     <!-- Custom CSS -->
-    <link href="{% static 'dist/css/style.css' %}" rel="stylesheet" type="text/css">
+    <link href="static/dist/css/style.css" rel="stylesheet" type="text/css">
  <!-- select2 -->
  <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
 
@@ -48,7 +48,7 @@
                 <div class="nav-header pull-left">
                     <div class="logo-wrap">
                         <a href="index.html">
-                            <img class="brand-img" src="{% static 'dist/img/logo.png' %}" alt="brand"
+                            <img class="brand-img" src="static/dist/img/logo.png" alt="brand"
                                 style="width: 22px;" />
                             <span class="brand-text">Covid19</span>
                         </a>
@@ -85,8 +85,8 @@
                     <i class="zmdi zmdi-more"></i>
                 </li>
                 <li>
-                    <a href="{% url 'information' %}" data-toggle="collapse" data-target="#Information">
-                        <div class="pull-left"><img style="margin-right: 8px;" src="{% static 'dist/img/who.png' %}"
+                    <a href="info/templates/info/information.html" data-toggle="collapse" data-target="#Information">
+                        <div class="pull-left"><img style="margin-right: 8px;" src="static/dist/img/who.png"
                                 width="20"><span class="right-nav-text">Covid-19 Information</span></div>
                         <div class="clearfix"></div>
                     </a>
@@ -102,10 +102,10 @@
                     </a>
                     <ul id="country" class="collapse collapse-level-1">
                         <li>
-                            <a href="{% url 'country' %}">General Data</a>
+                            <a href="info/templates/info/country.html">General Data</a>
                         </li>
                         <li>
-                            <a href="{% url 'moroccan_plots' %}">Plots
+                            <a href="info/templates/info/moroccan_plots.html">Plots
                                 of Morocco</a>
                         </li>
                     </ul>
