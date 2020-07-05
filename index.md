@@ -23,39 +23,7 @@
 </head>
 
 <body class="container">
-    <div class="container">
-        <div class="row justify-content-center">
-          <h2>Registration in Covid-19 Pandemic Tracker <img Height="30" Weight="40" class="brand-img" src="dist/img/logo.png" alt="brand"
-              style="width: 22px;" /></h2>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-4">
-                <div class="card">
-                    <h4 class="card-header text-center">Register</h4>
-                    <div class="card-block">
-                        <form method="post" action="/register">
-                            <div class="mx-auto text-center">
-                                <input type="submit" value="Create Account" class="btn btn-primary">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card">
-                    <h4 class="card-header text-center">Login</h4>
-                    <div class="card-block">
-                        <form method="post" action="/login">
-                            <div class="mx-auto text-center">
-                                <input type="submit" value="Login" class="btn btn-primary">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </script>
+    <h2>Registration in Covid-19 Pandemic Tracker <img Height="30" Weight="40" class="brand-img" src="dist/img/logo.png" alt="brand" style="width: 22px;" /></h2>
 </body>
 
 </html>
