@@ -25,7 +25,7 @@
 <body class="container">
     <div class="container">
         <div class="row justify-content-center">
-          <h2>Registration in Covid-19 Pandemic Tracker <img Height="30" Weight="40" class="brand-img" src="{% static 'dist/img/logo.png' %}" alt="brand"
+          <h2>Registration in Covid-19 Pandemic Tracker <img Height="30" Weight="40" class="brand-img" src="dist/img/logo.png" alt="brand"
               style="width: 22px;" /></h2>
         </div>
         <div class="row justify-content-center">
